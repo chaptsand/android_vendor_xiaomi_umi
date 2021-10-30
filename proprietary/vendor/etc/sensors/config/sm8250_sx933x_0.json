@@ -1,0 +1,261 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "QRD", "HDK", "UMI"],
+    "soc_id": ["321", "341", "356"]
+  },
+  "sx933x_0_platform":{
+    "owner": "sns_sx933x",
+    ".config":{
+      "owner": "sns_sx933x",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "5"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "40"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "120"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".placement":{
+      "owner": "sns_sx933x",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".thresh":{
+      "owner": "sns_sx933x",
+      "threshold_0":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+      "threshold_1":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+      "threshold_2":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+      "threshold_3":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      }
+    },
+    ".offset":{
+      "owner": "sns_sx933x",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".register":{
+      "owner": "sns_sx933x",
+      "Is_config":{ "type": "int", "ver": "3",
+        "data": "0"
+      },
+      "SX933X_SCANPERIOD_REG_0x801C":{ "type": "int", "ver": "0",
+        "data": "32796"
+      },
+      "SX933X_SCANPERIOD":{ "type": "int", "ver": "3",
+        "data": "10"
+      },
+      "SX933X_AFEPARAMSPH0_REG_0x8024":{ "type": "int", "ver": "0",
+        "data": "32804"
+      },
+      "SX933X_AFEPARAMSPH0":{ "type": "int", "ver": "3",
+        "data": "268508757"
+      },
+      "SX933X_AFEPHPH0_REG_0x8028":{ "type": "int", "ver": "0",
+        "data": "32808"
+      },
+      "SX933X_AFEPHPH0":{ "type": "int", "ver": "1",
+        "data": "1073185371"
+      },
+      "SX933X_AFEPARAMSPH1_REG_0x802C":{ "type": "int", "ver": "0",
+        "data": "32812"
+      },
+      "SX933X_AFEPARAMSPH1":{ "type": "int", "ver": "4",
+        "data": "268503214"
+      },
+      "SX933X_AFEPHPH1_REG_0x8030":{ "type": "int", "ver": "0",
+        "data": "32816"
+      },
+      "SX933X_AFEPHPH1":{ "type": "int", "ver": "2",
+        "data": "1052705486"
+      },
+      "SX933X_AFEPARAMSPH2_REG_0x8034":{ "type": "int", "ver": "0",
+        "data": "32820"
+      },
+      "SX933X_AFEPARAMSPH2":{ "type": "int", "ver": "4",
+        "data": "67669"
+      },
+      "SX933X_AFEPHPH2_REG_0x8038":{ "type": "int", "ver": "1",
+        "data": "32824"
+      },
+      "SX933X_AFEPHPH2":{ "type": "int", "ver": "2",
+        "data": "1073644123"
+      },
+      "SX933X_AFEPARAMSPH3_REG_0x803C":{ "type": "int", "ver": "2",
+        "data": "32828"
+      },
+      "SX933X_AFEPARAMSPH3":{ "type": "int", "ver": "3",
+        "data": "268503149"
+      },
+      "SX933X_AFEPHPH3_REG_0x8040":{ "type": "int", "ver": "1",
+        "data": "32832"
+      },
+      "SX933X_AFEPHPH3":{ "type": "int", "ver": "1",
+        "data": "1040155227"
+      },
+      "SX933X_ADCFILTPH0_REG_0x8054":{ "type": "int", "ver": "0",
+        "data": "32852"
+      },
+      "SX933X_ADCFILTPH0":{ "type": "int", "ver": "2",
+        "data": "136917761"
+      },
+      "SX933X_AVGBFILTPH0_REG_0x8058":{ "type": "int", "ver": "0",
+        "data": "32856"
+      },
+      "SX933X_AVGBFILTPH0":{ "type": "int", "ver": "3",
+        "data": "1616904976"
+      },
+      "SX933X_AVGAFILTPH0_REG_0x805C":{ "type": "int", "ver": "0",
+        "data": "32860"
+      },
+      "SX933X_AVGAFILTPH0":{ "type": "int", "ver": "3",
+        "data": "1019502592"
+      },
+      "SX933X_ADCFILTPH1_REG_0x8074":{ "type": "int", "ver": "0",
+        "data": "32884"
+      },
+      "SX933X_ADCFILTPH1":{ "type": "int", "ver": "4",
+        "data": "135796737"
+      },
+      "SX933X_AVGBFILTPH1_REG_0x8078":{ "type": "int", "ver": "0",
+        "data": "32888"
+      },
+      "SX933X_AVGBFILTPH1":{ "type": "int", "ver": "3",
+        "data": "1616904208"
+      },
+      "SX933X_AVGAFILTPH1_REG_0x807C":{ "type": "int", "ver": "0",
+        "data": "32892"
+      },
+      "SX933X_AVGAFILTPH1":{ "type": "int", "ver": "3",
+        "data": "1019506688"
+      },
+      "SX933X_ADVDIG3PH1_REG_0x808C":{ "type": "int", "ver": "0",
+        "data": "32908"
+      },
+      "SX933X_ADVDIG3PH1":{ "type": "int", "ver": "3",
+        "data": "3735609"
+      },
+      "SX933X_ADVDIG4PH1_REG_0x8090":{ "type": "int", "ver": "0",
+        "data": "32912"
+      },
+      "SX933X_ADVDIG4PH1":{ "type": "int", "ver": "0",
+        "data": "131072"
+      },
+      "SX933X_ADCFILTPH2_REG_0x8094":{ "type": "int", "ver": "0",
+        "data": "32916"
+      },
+      "SX933X_ADCFILTPH2":{ "type": "int", "ver": "2",
+        "data": "3809280"
+      },
+      "SX933X_AVGAFILTPH2_REG_0x809C":{ "type": "int", "ver": "0",
+        "data": "32924"
+      },
+      "SX933X_AVGAFILTPH2":{ "type": "int", "ver": "2",
+        "data": "785543168"
+      },
+      "SX933X_ADCFILTPH3_REG_0x80B4":{ "type": "int", "ver": "0",
+        "data": "32948"
+      },
+      "SX933X_ADCFILTPH3":{ "type": "int", "ver": "2",
+        "data": "3809280"
+      },
+      "SX933X_GNRLCTRL2_REG_0x8020":{ "type": "int", "ver": "0",
+        "data": "32800"
+      },
+      "SX933X_GNRLCTRL2":{ "type": "int", "ver": "1",
+        "data": "983055"
+      }
+    }
+  }
+}
