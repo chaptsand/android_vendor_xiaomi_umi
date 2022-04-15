@@ -2,13 +2,14 @@
 //
 // Defines the API for Offbody Detection Sensors.
 //
-// Copyright (c) 2017 Qualcomm Technologies, Inc.
+// Copyright (c) 2017-2018,2020 Qualcomm Technologies, Inc.
 // All Rights Reserved.
 // Confidential and Proprietary - Qualcomm Technologies, Inc.
 
 syntax = "proto2";
 import "nanopb.proto";
 import "sns_std_sensor.proto";
+import "sns_physical_sensor_test.proto";
 
 // An offbody detect sensor reports every time the device transitions from
 // off-body to on-body and from on-body to off-body (e.g. a wearable device

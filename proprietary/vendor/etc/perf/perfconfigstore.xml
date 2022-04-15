@@ -24,9 +24,7 @@ property Name is called. -->
                 <Prop Name="vendor.perf.iop_v3.enable.debug" Value="false" />
                 <Prop Name="vendor.enable.prefetch" Value="false" />
                 <Prop Name="vendor.iop.enable_prefetch_ofr" Value="false" />
-                <Prop Name="vendor.appcompact.enable_app_compact" Value="true" />
                 <Prop Name="ro.vendor.perf.gfl.tap_ignore_enable" Value="true"/>
-                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="60" />
 
                 <!--System Properties -->
                 <Prop Name="ro.lmk.thrashing_limit_pct_dup" Value="30" />
@@ -44,6 +42,7 @@ property Name is called. -->
                 <Prop Name="vendor.perf.performancemode.support" Value="true" />
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="vendor.perf.topAppRenderThreadBoost.enable" Value="false" />
+                <Prop Name="vendor.appcompact.enable_app_compact" Value="true" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="128" />
 
     </PerfConfigs>
