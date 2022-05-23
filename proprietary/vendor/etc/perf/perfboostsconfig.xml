@@ -331,7 +331,7 @@
 
         <Config
             Id="0x00001090" Enable="true" Timeout="1000" Target="kona"
-            Resources="0x40800100, 1000, 0x42804000, 0" />
+            Resources="0x40800100, 1324, 0x42804000, 0" />
 
     <!--Performance mode-->
         <!-- SCHEDTUNE_BOOST -->
