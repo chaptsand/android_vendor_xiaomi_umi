@@ -731,10 +731,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/lib64/camera/com.qti.tuned.umi_sunny_gc02m1_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.umi_sunny_gc02m1_depth.bin \
     vendor/xiaomi/umi/proprietary/vendor/lib64/camera/com.qti.tuned.umi_sunny_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.umi_sunny_gc02m1_macro.bin \
     vendor/xiaomi/umi/proprietary/vendor/lib64/camera/com.qti.tuned.umi_sunny_ov13b10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.umi_sunny_ov13b10.bin \
-    vendor/xiaomi/umi/proprietary/vendor/lib64/camera/com.qti.tuned.umi_sunny_ov16e10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.umi_sunny_ov16e10.bin \
     vendor/xiaomi/umi/proprietary/vendor/lib64/camera/com.qti.tuned.umi_sunny_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.umi_sunny_s5k3t2.bin \
-    vendor/xiaomi/umi/proprietary/vendor/lib64/camera/com.qti.tuned.umi_sunny_s5k5e8yx_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.umi_sunny_s5k5e8yx_depth.bin \
-    vendor/xiaomi/umi/proprietary/vendor/lib64/camera/com.qti.tuned.umi_sunny_s5k5e8yx_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.umi_sunny_s5k5e8yx_macro.bin \
     vendor/xiaomi/umi/proprietary/vendor/lib64/camera/components/com.arcsoft.node.deflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.deflicker.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/camera/components/com.arcsoft.node.smoothtransition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.smoothtransition.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/camera/components/com.arcsoft.node.superportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.superportrait.so \
