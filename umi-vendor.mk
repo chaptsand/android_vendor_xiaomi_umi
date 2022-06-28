@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/umi/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/umi/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
+    vendor/xiaomi/umi/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/xiaomi/umi/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/umi/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/xiaomi/umi/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
@@ -1350,6 +1351,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.qualcomm.qti.gpudrivers.kona.api30 \
     PowerOffAlarm \
+    ImsRcsService \
     QtiTelephony \
     QtiTelephonyService \
     dpmserviceapp \
@@ -1361,6 +1363,7 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcrilhook \
     qti-telephony-common \
+    vendor.qti.ims.factory-V2.0-java \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
