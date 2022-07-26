@@ -158,6 +158,45 @@
         "data": "0.0"
       }
     },
+    ".coefficient_panel3":{
+      "owner": "sns_tcs3701",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "1.523375"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "1.961"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "-1.398"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "7.185"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "-6.844"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "600.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
     ".oled_cal_factor":{
       "owner": "sns_tcs3701",
       "clear_a":{ "type": "flt", "ver": "1",
@@ -516,6 +555,60 @@
       }
     },
     ".90hz_panel2_step_cmp_factor":{
+      "owner": "sns_tcs3701",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "0.327277"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "0.193995"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "0.112838"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "0.053904"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "147.0085"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "90.30114"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "54.14489"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "21.4517"
+      }
+    },
+    ".60hz_panel3_step_cmp_factor":{
+      "owner": "sns_tcs3701",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "0.32775"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "0.193637"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "0.113083"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "0.05395"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "146.4489"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "89.40625"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "54.19602"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "21.21875"
+      }
+    },
+    ".90hz_panel3_step_cmp_factor":{
       "owner": "sns_tcs3701",
       "0":{ "type": "flt", "ver": "1",
         "data": "0.327277"
