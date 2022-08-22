@@ -125,17 +125,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ImsRcsService",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "QtiTelephony",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
@@ -200,13 +189,6 @@ dex_import {
 }
 
 dex_import {
-	name: "audiosphere",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
@@ -238,13 +220,6 @@ dex_import {
 	name: "qti-telephony-common",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V2.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar"],
 	system_ext_specific: true,
 }
 
