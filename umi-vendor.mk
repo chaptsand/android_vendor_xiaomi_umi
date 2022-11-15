@@ -354,7 +354,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/etc/sensors/config/tcs3408.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3408.json \
     vendor/xiaomi/umi/proprietary/vendor/etc/sensors/config/tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3701.json \
     vendor/xiaomi/umi/proprietary/vendor/etc/sensors/config/vl53l1_tof_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/vl53l1_tof_0.json \
-    vendor/xiaomi/umi/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/umi/proprietary/vendor/etc/sensors/judge_calibrated.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/judge_calibrated.json \
     vendor/xiaomi/umi/proprietary/vendor/etc/sensors/proto/descriptor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/descriptor.proto \
     vendor/xiaomi/umi/proprietary/vendor/etc/sensors/proto/nanopb.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/nanopb.proto \
