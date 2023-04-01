@@ -18,6 +18,7 @@ property Name is called. -->
     <PerfConfigs>
 
                 <!--Vendor Properties -->
+                <Prop Name="vendor.iop.enable_iop" Value="0" />
                 <Prop Name="vendor.iop.enable_uxe" Value="0" />
                 <Prop Name="vendor.debug.enable.lm" Value="true" />
                 <Prop Name="vendor.perf.iop_v3.enable" Value="true" />
@@ -43,7 +44,6 @@ property Name is called. -->
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="vendor.perf.topAppRenderThreadBoost.enable" Value="false" />
                 <Prop Name="vendor.appcompact.enable_app_compact" Value="true" />
-                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="128" />
 
     </PerfConfigs>
 </PerfConfigsStore>
